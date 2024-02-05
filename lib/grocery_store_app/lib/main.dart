@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'follow_and_unfollow/following.dart';
+import 'package:grocery_store_app/screen/first_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -8,13 +7,11 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(),
-      home: const FollowingPage(),
+      home: FirstScreen(),
     );
   }
 }

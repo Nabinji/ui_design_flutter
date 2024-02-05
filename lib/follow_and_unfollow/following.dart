@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui/model.dart';
+import 'package:flutter_ui/follow_and_unfollow/model.dart';
 
 class FollowingPage extends StatefulWidget {
   const FollowingPage({Key? key}) : super(key: key);
