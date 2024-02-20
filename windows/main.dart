@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'follow_and_unfollow/following.dart';
+import '../lib/follow_and_unfollow/following.dart';
 
 void main() {
   runApp(const MyApp());
